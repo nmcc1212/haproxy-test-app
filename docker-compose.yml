@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      TEXT_VALUE: RUNTIME
+    ports:
+      - "3001:3000"

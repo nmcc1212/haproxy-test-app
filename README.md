@@ -1,6 +1,7 @@
 # App for testing HAProxy
 
 Uses env var `TEXT`
+/api/ 500,404,400,401 will return the respective status codes
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
